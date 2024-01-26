@@ -14,7 +14,7 @@ spec:
         app: php-app
     spec:
       containers:
-      - image: brenobusnello/phpapp:3b5adb558355c33aa41fd3e14880771e634f2e4e
+      - image: brenobusnello/phpapp:28a04c9e36a264084fcffd4ee7430022ddc0f0c4
         name: php-app
         ports:
         - containerPort: 80
